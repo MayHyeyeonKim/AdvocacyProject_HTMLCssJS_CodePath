@@ -1,0 +1,145 @@
+body{
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 700;
+  margin: 0;
+}
+.body_section{
+  padding : 5% 8% 1%;
+}
+
+a{
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: "Lovely Home";
+  src:local('Lovely Home'), 
+  url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+}
+
+.brand-name ,.navbar-light .navbar-brand{
+    font-family: "Lovely Home";
+    font-size: 50px;
+    font-weight: bold;
+    color: #afd4c8;
+    text-align:center;
+}
+@media only screen and (max-width : 764px){
+    .brand-name ,.navbar-light .navbar-brand{
+    font-family: "Lovely Home";
+    font-size: 40px;
+    font-weight: bold;
+    color: #afd4c8;
+}
+}
+
+
+#contact{
+    padding: 20px 20px 10px;
+}
+
+
+.section1{
+    text-align: center;
+}
+
+.Profilepic{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  border: 10px solid;
+  border-color: #afd4c8;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);;
+}
+
+.context{
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#868e96;
+}
+
+.ico{
+  padding: 0;
+}
+
+.icon{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 7px 0;
+    display: inline;
+
+}
+
+.github{color: #24292f;}
+.instagram{
+  color: #c24258;
+}
+.linkedin{
+  color: #0e76a8;
+}
+.google{
+  color: #34a853;
+}
+
+.github:hover , .instagram:hover , .google:hover , .linkedin:hover{
+    color: #9d9595;
+}
+
+.Resume{
+  color: #ffffff;
+  background-color: #afd4c8;
+}
+.Resume:hover{
+  background-color: #ffffff;
+  color:  #afd4c8;
+  border-color:#2cc394 ;
+    
+}
+
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
+
+
+@media only screen and (max-width : 950px){
+
+  body,html{
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .connect{
+    font-size: 20px;
+  }
+  .connection{
+    margin-left: 0px;
+  }
+
+}
+
+footer{
+  padding-top: 2%;
+  color: #868e96;
+  text-align: center;
+  opacity: 50%;
+}

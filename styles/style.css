@@ -1,0 +1,701 @@
+@import url('reset.css');
+
+html {
+  height: 80%;
+  width: 90%;
+  margin: 30px;
+  flex: 1 1 auto;
+
+}
+
+body {
+  font-family: 'Young Serif', serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.titlePic {
+  display: block;
+  max-width: 10%;
+  height: 10%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+
+.topic1 {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 0 0 0 20px;
+  /* border-radius: 5px; */
+  display: flex;
+}
+
+.topic-text {
+  flex: 1;
+}
+
+.topic-pic {
+  flex: 1;
+  display: flex;
+  padding: 0 20px 0 20px;
+  justify-content: center;
+  align-items: center;
+  opacity: 40%;
+}
+
+.topic-pic img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  /* 이미지 비율 유지하면서 컨테이너에 가득 채우기 */
+}
+
+.topic2 {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 0 20px 0 0;
+  /* border-radius: 5px; */
+  display: flex;
+}
+
+.topic-text {
+  flex: 1;
+}
+
+.topic-pic {
+  flex: 1;
+  display: flex;
+  padding: 0 20px 0 20px;
+  justify-content: center;
+  align-items: center;
+  opacity: 40%;
+}
+
+.topic-pic img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 20px 0 0;
+  object-fit: contain;
+  /* 이미지 비율 유지하면서 컨테이너에 가득 채우기 */
+}
+
+
+
+
+
+
+.feature1,
+.feature2 {
+  flex: 1;
+}
+
+.AiImg {
+  border-radius: 15%;
+}
+
+*/ #about {
+  background-color: #f4f4f4;
+  /* 박스의 배경색 설정 */
+  padding: 20px;
+  /* 내용과 박스 사이의 여백 설정 */
+  border: 1px solid #ddd;
+  /* 박스 테두리 설정 */
+  border-radius: 5px;
+  /* 박스의 모서리를 둥글게 설정 */
+}
+
+#about .box {
+  display: flex;
+  align-items: center;
+}
+
+#about .content {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+#about .image {
+  flex: 1;
+  text-align: right;
+  padding: 20px;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(30%);
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 100px;
+  transform: translateY(-50%);
+}
+
+h2 {
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1.8rem;
+  text-align: center;
+  background: #f8efe7;
+}
+
+
+
+h3 {
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Sometype Mono', monospace;
+}
+
+.end {
+  color: #ff3300;
+  font-size: 0.5rem;
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5cm auto;
+  padding: 10px 20px;
+  background-color: #e2eeea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #afd4c8;
+}
+
+.image {
+  max-width: 40%;
+  height: auto;
+  flex: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* Center the list items horizontally */
+  align-items: center;
+  /* Center the list items vertically */
+  height: 50px;
+  /* Set a fixed height for the ul container (adjust as needed) */
+}
+
+li {
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  flex: 1 1 auto;
+
+  /* Add padding to create a "floating" effect */
+  /* border: 1px solid #000; /* Add a border for better visibility */
+  */
+}
+
+iframe {
+  max-width: 70%;
+  height: 70%;
+  /* text-align: center; */
+
+}
+
+.ytp-cued-thumbnail-overlay {
+  width: 10%;
+  height: 10%;
+  margin: 5%;
+  /* text-align: center; */
+}
+
+.endh3 {
+  text-decoration: none;
+  color: #d60e00;
+  margin: 2 2 2 2;
+}
+
+.endA {
+  margin: 3px;
+}
+
+li a {
+
+  text-decoration: none;
+  color: #0078d4;
+}
+
+article {
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+  margin-top: 30px;
+  border: none;
+}
+
+/* Navbar 스타일 */
+.navbar {
+  /* border-radius: 2%; */
+  opacity: 90%;
+  background-color: white;
+  color: #080808;
+  padding: 5px;
+  margin: 10px;
+  backdrop-filter: blur(5px);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/* Navbar 내부 ul 스타일 */
+/* .navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* Equal space around items */
+overflow: hidden;
+}
+
+*/ .nav-ul {
+  width: 800px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  padding: 30px 0 25px 0;
+  border-top: 1px solid rgb(233, 244, 169);
+  border-bottom: 1px solid rgb(234, 233, 241);
+}
+
+/* Navbar 내부 li 스타일 */
+.navbar li {
+  /* margin: 10px; */
+  /* padding: 5px 10px; */
+  /* Equal margin on all sides */
+  background-size: 100% 540%;
+}
+
+
+/* Navbar 내부 링크 스타일 */
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: #024532;
+  padding: 10px 20px;
+  transition: background 0.3s, color 0.3s;
+
+}
+
+/* Navbar 내부 링크 호버 스타일 */
+.navbar a:hover {
+  background-color: #e2eeea;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Container 내부 flex-item 스타일 */
+.container .flex-item {
+  flex: 1;
+  /* 남은 공간을 동등하게 분배 */
+  border: 1px solid #ccc;
+  /* 테두리를 추가하여 구분 */
+  padding: 10px;
+}
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+  background-color: green;
+  color: white;
+  font-size: 14px;
+}
+
+
+/* 헤더 스타일 */
+/* .header {
+  position: fixed; /* 고정 위치 */
+top: 0;
+/* 화면 상단에 위치 */
+width: 100%;
+/* 전체 너비를 차지 */
+background-color: #333;
+color: #fff;
+padding: 10px 0;
+}
+
+*/ header {
+  background-color: #333;
+  /* 헤더 배경 색상 */
+  color: #fff;
+  /* 헤더 텍스트 색상 */
+  height: 100px;
+  /* 헤더 높이 */
+  position: fixed;
+  /* 헤더를 고정시킴 */
+  top: 0;
+  /* 페이지 맨 위에 헤더를 배치 */
+  left: 0;
+  right: 0;
+  z-index: 100;
+  /* 다른 요소 위에 표시될 수 있도록 설정 */
+}
+
+section {
+  margin-top: 100px;
+  /* 헤더의 높이와 동일한 값 */
+  margin-bottom: 100px;
+  /* Footer 높이만큼 여백 추가 */
+}
+
+
+
+
+
+
+/* Footer 스타일 */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #4d4c4c;
+  padding: 0 0 30px 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: #f4ecec;
+  opacity: 30%;
+  transition: bottom 0.3s;
+}
+
+/* Footer 내부 요소 스타일 */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Footer 내부 링크 스타일 */
+.footer-links {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+  /* 간격 조정 */
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #4d4c4c;
+}
+
+/* 추가적인 스타일 수정 */
+.footer a:hover {
+  text-decoration: underline;
+  /* 호버 상태에서 언더라인 표시 */
+}
+
+
+/* Dark Mode CSS */
+.dark-mode {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  /* text-decoration: underline; */
+
+
+  #theme-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: 4px solid #e2eeea; */
+    border-width: 5px;
+  }
+
+  #theme-button:hover {
+    background-color: #555;
+    /* border: 5px dotted #36A8A8; */
+  }
+
+  .navbar {
+    background-color: #080808;
+    /* 배경색 변경 */
+    color: white;
+    /* 텍스트 색상 변경 */
+    opacity: 90%;
+    padding: 5px;
+    margin: 10px;
+    backdrop-filter: blur(5px);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+  }
+
+  .navbar a {
+    display: block;
+    text-decoration: none;
+    background-size: 50%;
+    color: #f8f8f7;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+
+  /* Navbar 내부 링크 호버 스타일 */
+  .navbar a:hover {
+    background-color: #8c8c87;
+    transition: background 0.7s, color 0.3s;
+    color: white;
+  }
+
+  #about {
+    background-color: #333;
+    /* 배경색을 어둡게 설정 */
+    color: #fff;
+    /* 텍스트 색상을 흰색으로 설정 */
+  }
+
+  #petition {
+    background-color: #333;
+    /* 배경색을 어둡게 설정 */
+    color: #fff;
+    /* 텍스트 색상을 흰색으로 설정 */
+    border: 1px solid #555;
+    /* 테두리 색상 변경 */
+  }
+
+  .petition h2 {
+    color: #fff;
+    /* 헤더 텍스트 색상을 흰색으로 설정 */
+  }
+
+  .petition-container {
+    background-color: #444;
+    /* 컨테이너 배경색을 어둡게 설정 */
+  }
+
+  #sign-petition label {
+    color: #fff;
+    /* label 텍스트 색상을 흰색으로 설정 */
+  }
+
+  #sign-petition input {
+    background-color: #444;
+    /* input 배경색을 어둡게 설정 */
+    color: #fff;
+    /* input 텍스트 색상을 흰색으로 설정 */
+    border: 1px solid #555;
+    /* input 테두리 색상 변경 */
+  }
+
+  #sign-now-button {
+    background-color: #444;
+    /* 버튼 배경색을 어둡게 설정 */
+    color: #fff;
+    /* 버튼 텍스트 색상을 흰색으로 설정 */
+    border: 1px solid #555;
+    /* 버튼 테두리 색상 변경 */
+  }
+}
+
+/* 모달 스타일 */
+#thanks-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  background-color: #5a5858;
+  border: 1px solid #141414;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* 모달 이미지 스타일 */
+.modal-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.5s ease;
+  /* 애니메이션 지속 시간 및 타이밍 함수 설정 */
+  transform-origin: center center;
+  /* 회전 중심을 이미지 중앙으로 설정 */
+}
+
+.modal-image:hover {
+  transform: rotate(20deg) scale(1.2);
+  /* 마우스 호버 시 이미지 회전 및 확대 애니메이션 */
+}
+
+/* "x" 버튼 스타일 */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fdfcfc;
+}
+
+
+
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+.petition {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+#sub-petition {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.sign-area {
+  flex: 1;
+}
+
+.form-area {
+  flex: 1;
+}
+
+.petition h2 {
+  font-size: 24px;
+}
+
+.petition-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+  /* sign-area와 간격을 둠 */
+}
+
+
+
+#sign-petition {
+  display: flex;
+  flex-direction: column;
+  /* form 내의 요소들이 아래로 쭉쭉 추가되도록 설정 */
+}
+
+#sign-petition label {
+  display: block;
+}
+
+#sign-petition input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+#sign-now-button {
+  display: block;
+  margin: 10px auto;
+}
+
+/* 모달 스타일 */
+#thanks-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* 모달 이미지 스타일 */
+.modal-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* "x" 버튼 스타일 */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
